@@ -1,1 +1,41 @@
 @charset "utf-8";
+
+html {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+div#container {
+    background-image: url("../images/halloween-no-text-gemini.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    color: white;
+}
+
+header {
+    text-transform: capitalize;
+    font-family: serif;
+    font-size: 25px;
+    position: relative;
+    margin-left: 16.7em;
+    padding-left: 3em;
+    padding-top: 1px;
+    width: 1in;
+}
+
+header strong {
+    text-transform: uppercase;
+}
+
+h1, h3 {
+    color: rgb(252, 82, 2);
+    text-transform: uppercase;
+}
+ h1 {
+    font-size: 100px;
+ }
