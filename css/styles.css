@@ -13,7 +13,9 @@ div#container {
     background-image: url("../images/halloween-no-text-gemini.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: center;
+    width: 750px;
+    height: 1000px;
+    position: relative;
     color: white;
 }
 
@@ -21,10 +23,6 @@ header {
     text-transform: capitalize;
     font-family: serif;
     font-size: 25px;
-    position: relative;
-    margin-left: 16.7em;
-    padding-left: 3em;
-    padding-top: 1px;
     width: 1in;
 }
 
@@ -32,10 +30,51 @@ header strong {
     text-transform: uppercase;
 }
 
+h2 {
+    position: relative;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
 h1, h3 {
     color: rgb(252, 82, 2);
     text-transform: uppercase;
 }
- h1 {
-    font-size: 100px;
- }
+
+h1 {
+    font-size: 95px;
+    position: absolute;
+    margin: 0;
+    top: 7.7em;
+    left: 12.5px;
+}
+
+main h3 {
+    position: absolute;
+    margin: 0;
+    top: 38.7em;
+    left: 13em;
+}
+
+section#title p{
+    position: relative;
+    text-align: right;
+    margin-top: 77%;
+    margin-right: 7em;
+    /* put a font and color here */
+}
+
+section#description {
+    text-align: center;
+    line-height: 0.25em;
+    font-size: 14px;
+    position: relative;
+    margin: 0;
+    right: 3.5em;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+    font-size: 50%;
+}
