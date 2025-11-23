@@ -141,3 +141,17 @@ p img{
 #bottom li{
     padding-right: 200px;
 }
+
+footer{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    margin: 0;
+    top: 2em;
+    left: 38em;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
