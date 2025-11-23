@@ -10,6 +10,7 @@ html {
 }
 
 div#container {
+    /* Image edited by gemini to remove the text. Original is a Poster from Halloween 1978 */
     background-image: url("../images/halloween-no-text-gemini.png");
     background-repeat: no-repeat;
     background-size: contain;
