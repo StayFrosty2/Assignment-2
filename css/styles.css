@@ -73,8 +73,71 @@ section#description {
     right: 3.5em;
 }
 
-ul {
+ul li{
     list-style-type: none;
-    display: inline;
-    font-size: 50%;
+    display: inline-block;
+    font-size: 75%;
+    position: relative;
+    margin: 0px;
+    left: 4px;
+    z-index: 1;
+}
+
+p img{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    margin: 0px;
+    top: 57.2em;
+    left: 34em;
+    z-index: 0;
+}
+
+#black{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#down{
+    top: 25px;
+}
+
+#title p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#bigger{
+    font-size: 120%;
+}
+
+#stack {
+    display: grid;
+    position: relative;
+    right: 60px;
+}
+
+#i{
+    font-size: 120%;
+    padding: 5px;
+}
+
+#year{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    top: 30px;
+    left: -8px;
+}
+
+#bottom{
+    color: black;
+    font-size: 70%;
+    position: absolute;
+    margin: 0;
+    top: 977px;
+    left: 155px;
+}
+
+#bottom li{
+    padding-right: 200px;
 }
